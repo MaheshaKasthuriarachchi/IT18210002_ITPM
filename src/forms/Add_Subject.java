@@ -5,6 +5,7 @@
  */
 package forms;
 
+import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
 /**
@@ -318,6 +319,7 @@ public class Add_Subject extends javax.swing.JFrame {
             ms.setVisible(true);
             ms.pack();
             ms.setLocationRelativeTo (null);
+            ms.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3_SaveSubjectActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3_SaveSubjectActionPerformed

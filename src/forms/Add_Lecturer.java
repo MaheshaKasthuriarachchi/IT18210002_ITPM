@@ -5,6 +5,7 @@
  */
 package forms;
 
+import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 /**
@@ -362,6 +363,7 @@ public class Add_Lecturer extends javax.swing.JFrame {
             ml.setVisible(true);
             ml.pack();
             ml.setLocationRelativeTo (null);
+            ml.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }//GEN-LAST:event_jButton1_ManageActionPerformed
 
     private void jButton1_Generate_RankActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1_Generate_RankActionPerformed

@@ -5,6 +5,8 @@
  */
 package forms;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author user
@@ -250,6 +252,7 @@ public class Manage_Sessions extends javax.swing.JFrame {
             asl.setVisible(true);
             asl.pack();
             asl.setLocationRelativeTo (null);
+            asl.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }//GEN-LAST:event_jButton5ActionPerformed
 
     /**
