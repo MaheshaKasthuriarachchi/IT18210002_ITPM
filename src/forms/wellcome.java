@@ -30,69 +30,69 @@ public class wellcome extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
+        jButton1_lec = new javax.swing.JButton();
+        jButton2_sub = new javax.swing.JButton();
+        jButton3_Sess = new javax.swing.JButton();
+        jButton4_MangSess = new javax.swing.JButton();
+        jButton5_mangSub = new javax.swing.JButton();
+        jButton6_mangLec = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
-        jButton1.setBackground(new java.awt.Color(204, 255, 204));
-        jButton1.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
-        jButton1.setText("Lecturer");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        jButton1_lec.setBackground(new java.awt.Color(204, 255, 204));
+        jButton1_lec.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
+        jButton1_lec.setText("Lecturer");
+        jButton1_lec.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                jButton1_lecActionPerformed(evt);
             }
         });
 
-        jButton2.setBackground(new java.awt.Color(204, 255, 204));
-        jButton2.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
-        jButton2.setText("Subject");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        jButton2_sub.setBackground(new java.awt.Color(204, 255, 204));
+        jButton2_sub.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
+        jButton2_sub.setText("Subject");
+        jButton2_sub.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                jButton2_subActionPerformed(evt);
             }
         });
 
-        jButton3.setBackground(new java.awt.Color(204, 255, 204));
-        jButton3.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
-        jButton3.setText("Sesseion");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
+        jButton3_Sess.setBackground(new java.awt.Color(204, 255, 204));
+        jButton3_Sess.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
+        jButton3_Sess.setText("Sesseion");
+        jButton3_Sess.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                jButton3_SessActionPerformed(evt);
             }
         });
 
-        jButton4.setBackground(new java.awt.Color(204, 255, 204));
-        jButton4.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
-        jButton4.setText("Manage Sesseions");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        jButton4_MangSess.setBackground(new java.awt.Color(204, 255, 204));
+        jButton4_MangSess.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
+        jButton4_MangSess.setText("Manage Sesseions");
+        jButton4_MangSess.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                jButton4_MangSessActionPerformed(evt);
             }
         });
 
-        jButton5.setBackground(new java.awt.Color(204, 255, 204));
-        jButton5.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
-        jButton5.setText("Manage Subjects");
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
+        jButton5_mangSub.setBackground(new java.awt.Color(204, 255, 204));
+        jButton5_mangSub.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
+        jButton5_mangSub.setText("Manage Subjects");
+        jButton5_mangSub.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
+                jButton5_mangSubActionPerformed(evt);
             }
         });
 
-        jButton6.setBackground(new java.awt.Color(204, 255, 204));
-        jButton6.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
-        jButton6.setText("Manage Lecturers");
-        jButton6.addActionListener(new java.awt.event.ActionListener() {
+        jButton6_mangLec.setBackground(new java.awt.Color(204, 255, 204));
+        jButton6_mangLec.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
+        jButton6_mangLec.setText("Manage Lecturers");
+        jButton6_mangLec.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton6ActionPerformed(evt);
+                jButton6_mangLecActionPerformed(evt);
             }
         });
 
@@ -107,14 +107,14 @@ public class wellcome extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(74, 74, 74)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jButton3_Sess, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton2_sub, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton1_lec, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jButton4_MangSess, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton5_mangSub, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton6_mangLec, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(119, 119, 119))
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(115, 115, 115)
@@ -129,17 +129,17 @@ public class wellcome extends javax.swing.JFrame {
                 .addGap(85, 85, 85)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jButton6_mangLec, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(45, 45, 45)
-                        .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jButton5_mangSub, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(66, 66, 66)
-                        .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jButton4_MangSess, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jButton1_lec, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(32, 32, 32)
-                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jButton2_sub, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(65, 65, 65)
-                        .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(jButton3_Sess, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(686, Short.MAX_VALUE))
         );
 
@@ -162,58 +162,58 @@ public class wellcome extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void jButton1_lecActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1_lecActionPerformed
         // Open Add Lecturer Form
         Add_Lecturer al = new Add_Lecturer(); 
             al.setVisible(true);
             al.pack();
             al.setLocationRelativeTo (null);
             al.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_jButton1_lecActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void jButton2_subActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2_subActionPerformed
         // TODO add your handling code here:
          Add_Subject as = new Add_Subject(); 
             as.setVisible(true);
             as.pack();
             as.setLocationRelativeTo (null);
             as.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_jButton2_subActionPerformed
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void jButton3_SessActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3_SessActionPerformed
         // TODO add your handling code here:
         Add_Session ss = new Add_Session(); 
             ss.setVisible(true);
             ss.pack();
             ss.setLocationRelativeTo (null);
             ss.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-    }//GEN-LAST:event_jButton3ActionPerformed
+    }//GEN-LAST:event_jButton3_SessActionPerformed
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    private void jButton4_MangSessActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4_MangSessActionPerformed
         // TODO add your handling code here:
          Manage_Sessions mss = new Manage_Sessions(); 
             mss.setVisible(true);
             mss.pack();
             mss.setLocationRelativeTo (null);
             mss.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-    }//GEN-LAST:event_jButton4ActionPerformed
+    }//GEN-LAST:event_jButton4_MangSessActionPerformed
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+    private void jButton5_mangSubActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5_mangSubActionPerformed
             Manage_Subjects ms = new Manage_Subjects(); 
             ms.setVisible(true);
             ms.pack();
             ms.setLocationRelativeTo (null);
             ms.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton5ActionPerformed
+    }//GEN-LAST:event_jButton5_mangSubActionPerformed
 
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        // TODO add your handling code here: Manage_Lecturers ml = new Manage_Lecturers(); 
+    private void jButton6_mangLecActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6_mangLecActionPerformed
+        // TODO add your handling code here: 
            Manage_Lecturers ml = new Manage_Lecturers(); 
             ml.setVisible(true);
             ml.pack();
             ml.setLocationRelativeTo (null);
             ml.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-    }//GEN-LAST:event_jButton6ActionPerformed
+    }//GEN-LAST:event_jButton6_mangLecActionPerformed
 
     /**
      * @param args the command line arguments
@@ -251,12 +251,12 @@ public class wellcome extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton1_lec;
+    private javax.swing.JButton jButton2_sub;
+    private javax.swing.JButton jButton3_Sess;
+    private javax.swing.JButton jButton4_MangSess;
+    private javax.swing.JButton jButton5_mangSub;
+    private javax.swing.JButton jButton6_mangLec;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
