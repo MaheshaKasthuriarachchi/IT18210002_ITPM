@@ -6,6 +6,7 @@
 package forms;
 
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 import javax.swing.WindowConstants;
 import javax.swing.table.DefaultTableModel;
 
@@ -76,6 +77,7 @@ public class Manage_Lecturers extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel3.setText("Employee ID");
 
+        jTextField3_lid_id.setEditable(false);
         jTextField3_lid_id.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField3_lid_idActionPerformed(evt);
@@ -361,13 +363,27 @@ public class Manage_Lecturers extends javax.swing.JFrame {
     private void jComboBox2_departmentActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox2_departmentActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox2_departmentActionPerformed
-
+ public boolean verifText(){
+            if ( jTextField3_employee_id.getText().equals("") || jTextField1_employee_name.getText().equals("") )
+            {
+                JOptionPane.showMessageDialog(null, "One Or More Empty Field");
+                return false;
+            }
+            else{
+                return true;
+            }
+        }
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
+        if (jTextField3_lid_id.getText().equals(null)){
+            JOptionPane.showMessageDialog(null, "No Lecturer Selected");
+        }else{
         Lecturer lec = new Lecturer();
-        int 
+        int id = Integer.valueOf(jTextField3_lid_id.getText());
         lec.insertUpdateDeleteLecturer('d', id, null, null,  null,  null,  null, null,  null,  null);
-        
+        lec.fillLecturerJtable(jTable2_lecturer, "");
+        jTable2_lecturer.setModel(new DefaultTableModel(null,new Object[]{"id", "emloyee_id", "employee_name", "faculty", "department", "center", "building", "level", "rank"}));
+        }
         
     }//GEN-LAST:event_jButton5ActionPerformed
 
@@ -413,6 +429,9 @@ public class Manage_Lecturers extends javax.swing.JFrame {
         int rank =  Integer.valueOf( jTextField2_rank.getText());
         Lecturer lec = new Lecturer();
         lec.insertUpdateDeleteLecturer('u', id, employee_id, employee_name, faculty, department, center, building, level, rank);
+        lec.fillLecturerJtable(jTable2_lecturer, null);
+        jTable2_lecturer.setModel(new DefaultTableModel(null,new Object[]{"id", "emloyee_id", "employee_name", "faculty", "department", "center", "building", "level", "rank"}));
+        
     }//GEN-LAST:event_jButton6_UpdateActionPerformed
 
     /**
